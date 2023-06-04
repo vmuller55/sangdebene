@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info{
+    width: 30%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    list-style-type: none;
+    padding: 50px 100px;
+    background-color: rgba(26, 48, 69, 0.8);
+    color: white;
+    border: 1px solid #e0c0a2;
+}
+
+.info li{
+    text-align: center;
+    font-size: 24px;
+}
+
+.split{
+    margin: 30px 0px;
+    width: 90%;
+    padding: 0.5px;
+    background-color: #e0c0a2;
+
+}
+
+.mail{
+    word-wrap: break-word;
+}

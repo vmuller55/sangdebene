@@ -1,0 +1,11 @@
+.background{
+    width: 100%;
+    position: absolute;
+    height: 80%;
+}
+
+@media only screen and (max-width:1000px) {
+   .background{
+    object-fit: cover;
+   }
+}
