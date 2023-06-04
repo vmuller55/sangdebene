@@ -1,0 +1,23 @@
+.instagram-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 50px;
+    justify-content: center;
+    margin-top: 900px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.instagram-item img{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 1px #e0c0a2;
+    transition: transform 0.5s ease-in-out;
+}
+
+.instagram-item img:hover{
+    transform: scale(1.5);    
+}
