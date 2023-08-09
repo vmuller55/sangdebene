@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    transition: opacity 0.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    justify-content: center;
+    width: 100%;
+    color: var(--detail);
+    z-index: 1000;
+    background-color: var(--secondary);
+    
+}
+
+h1{
+    margin: 0;
+    align-self: center;
+}
